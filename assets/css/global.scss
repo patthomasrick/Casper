@@ -1,3 +1,7 @@
+
+// Var for base font size.
+$base_font_size: 2rem;
+
 /* Reset
 /* ---------------------------------------------------------- */
 
@@ -179,7 +183,7 @@ samp {
 kbd {
     padding: 3px 5px;
     font-family: var(--font-mono);
-    font-size: 1.5rem;
+    font-size: $base_font_size * 0.75;;
     background: #f6f8fa;
     border: 1px solid rgba(124, 139, 154, 0.25);
     border-radius: 6px;
@@ -187,7 +191,7 @@ kbd {
 }
 @media (max-width: 600px) {
     kbd {
-        font-size: 1.3rem;
+        font-size: $base_font_size * 0.65;;
     }
 }
 button,
@@ -277,7 +281,7 @@ html {
 body {
     color: var(--color-darkgrey);
     font-family: var(--font-sans);
-    font-size: 1.6rem;
+    font-size: $base_font_size * 0.8;;
     line-height: 1.6em;
     font-weight: 400;
     font-style: normal;
@@ -426,54 +430,54 @@ h6 {
 
 h1 {
     margin: 0 0 0.5em 0;
-    font-size: 4.8rem;
+    font-size: $base_font_size * 2.4;;
     font-weight: 700;
     letter-spacing: -0.015em;
 }
 @media (max-width: 600px) {
     h1 {
-        font-size: 2.8rem;
+        font-size: $base_font_size * 1.4;;
     }
 }
 
 h2 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2.8rem;
+    font-size: $base_font_size * 1.4;;
     font-weight: 700;
 }
 @media (max-width: 600px) {
     h2 {
-        font-size: 2.3rem;
+        font-size: $base_font_size * 1.15;;
     }
 }
 
 h3 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2.4rem;
+    font-size: $base_font_size * 1.2;;
     font-weight: 600;
 }
 @media (max-width: 600px) {
     h3 {
-        font-size: 1.7rem;
+        font-size: $base_font_size * 0.85;;
     }
 }
 
 h4 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2rem;
+    font-size: $base_font_size;
 }
 @media (max-width: 600px) {
     h4 {
-        font-size: 1.7rem;
+        font-size: $base_font_size * 0.85;;
     }
 }
 
 h5 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 2rem;
+    font-size: $base_font_size;
 }
 
 h6 {
     margin: 1.5em 0 0.5em 0;
-    font-size: 1.8rem;
+    font-size: $base_font_size * 0.9;;
 }
