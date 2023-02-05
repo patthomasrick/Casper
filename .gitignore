@@ -1,6 +1,3 @@
-# Don't include compiled files.
-assets/built
-
 b-cov
 *.seed
 *.log
