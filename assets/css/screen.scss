@@ -25,6 +25,9 @@ production stylesheet in assets/built/screen.css
 /* 1. Global - Set up the things
 /* ---------------------------------------------------------- */
 
+// Load custom rules.
+@import "custom.scss";
+
 /* Import CSS reset and base styles */
 @import "global.scss";
 
