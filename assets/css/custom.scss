@@ -1,0 +1,9 @@
+.gh-head {
+  // Semi-transparent gradient going down.
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.20),
+    rgba(0, 0, 0, 0)
+  );
+}
